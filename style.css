@@ -124,7 +124,7 @@ h2{
 @media screen and (max-width: 360px){
     .first{
         width: 50%;
-        left: 0px;
+        left: 10px;
         position: fixed;
         
     }
