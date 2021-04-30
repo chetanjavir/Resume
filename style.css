@@ -12,10 +12,15 @@
     z-index: 10 ;
     border-radius: 5px;
 }
-
+/* h1{
+    font-size:1vw;
+}
+h3{
+    font-size:1vw;
+} */
 .main{
     display:flex;
-    /* justify-content:space-between; */
+    /* justify-content:space-around; */
 }
 hr{
     border: 1px solid black;
@@ -56,7 +61,7 @@ a:link{
 
 .first{
     left: 0px;
-    width:300px;
+    width:250px;
     height: 150vh;
     background-color:rgb(212, 212, 212);
     border-top-right-radius: 40px;
@@ -91,6 +96,8 @@ table tr:hover{
     border-bottom-right-radius: 10px;
 }
 h2{
+    /* font-size:1vw; */
+    
     z-index: 10;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -99,6 +106,16 @@ h2{
     border-bottom-left-radius:10px; 
     box-shadow: 10px 10px 10px 0px rgb(212, 212, 212);
     text-shadow: 1px 1px 40px ;
+}
+@media screen and (min-width: 300px){
+        .main{
+            width: 50%;
+        }
+}
+@media screen and (max-width: 500px){
+    h1 ,h2 ,h3{
+        font-size: 5vw;
+    }
 }
 
 .second{
