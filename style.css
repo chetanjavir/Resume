@@ -3,8 +3,12 @@
     font-family:'Times New Roman', Times, serif;
 }
 .photo-id img{
-    width: auto;
-    height: auto;
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    height: 100%;
+    display: flex;
+    /* flex: auto 1 0; */
     position:relative;
     left: 70px;
     top: 20px;
@@ -51,7 +55,8 @@ a:link{
 
 .first{
     left: 0px;
-    width:250px;
+    width: 100%;
+    max-width:250px;
     height: 150vh;
     background-color:rgb(212, 212, 212);
     border-top-right-radius: 40px;
@@ -108,7 +113,7 @@ h2{
     box-shadow: 10px 10px 10px 0px rgb(212, 212, 212);
     text-shadow: 1px 1px 40px ;
 }
-@media screen and (max-width: 360px){
+/* @media screen and (max-width: 360px){
     .main{
         width: 100%;
     }
@@ -139,4 +144,4 @@ h2{
 .list1
 {
     margin-left:-30px ;
-       }}}
+       }}} */
